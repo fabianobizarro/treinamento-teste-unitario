@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFiliado", "src\ApiFiliad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFiliado.Tests", "ApiFiliado.Tests\ApiFiliado.Tests.csproj", "{7437FAEA-2387-4F29-A8CC-26B0BEFEFBBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DC4301DF-1D00-4FF0-B810-9A12393D6CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8254EF88-D065-4915-8DAB-661022689FD4} = {DC4301DF-1D00-4FF0-B810-9A12393D6CB4}
+		{7437FAEA-2387-4F29-A8CC-26B0BEFEFBBC} = {DC4301DF-1D00-4FF0-B810-9A12393D6CB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FD2CB54-C547-4766-B0BB-75609AA60AFF}
