@@ -72,7 +72,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppConsole\AppConsole.csproj">
+    <ProjectReference Include="..\..\AppConsole\AppConsole.csproj">
       <Project>{25092bcc-41da-4528-922c-e1f6bb82167b}</Project>
       <Name>AppConsole</Name>
     </ProjectReference>
